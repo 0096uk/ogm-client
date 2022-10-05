@@ -1,0 +1,38 @@
+.order {
+  width: 70%;
+  max-height: 500px;
+  min-width: 500px;
+  background-color: white;
+  z-index: 100;
+  float: centre;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  padding-top: 3px;
+  padding-left: 50px;
+  margin-right: 300px;
+  margin-left: 250px;
+}
+
+.small {
+  max-height: 20px;
+  max-width: 20px;
+  /*width: 100%;*/
+  object-fit: contain;
+}
+
+.order > button {
+  background: greenyellow;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.order__price {
+  margin-top: 5px;
+}
+
+.order__info {
+  height: 100px;
+  margin-bottom: 5px;
+}

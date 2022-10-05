@@ -1,0 +1,28 @@
+.footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+  }
+  
+  .footer__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+
+  .footer__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .footer__optionLine{
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
