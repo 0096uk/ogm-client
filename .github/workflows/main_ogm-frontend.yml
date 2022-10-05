@@ -23,6 +23,7 @@ jobs:
 
       - name: yarn install, build
         run: |
+          unset CI
           yarn
           yarn build --if-present
 
